@@ -29,15 +29,25 @@
               <label for="secondNumber" class="formLabel mt-3">Second Number :</label>
               <input type="number" id="secondNumber" class="form-control" />
            
-              <div class="d-grid gap-5">
-                <button type="submit" onclick=" calculate()" class="btn btn-success my-3"> <!--Margin in the y axis(both from top and bottom)-->
-                    CALCULATE
+              <div class="d-grid gap-1">
+                <button type="submit" onclick=" calculate()" class="btn btn-success my-1"> <!--Margin in the y axis(both from top and bottom)-->
+                    +
+                  </button>
+                  <button type="submit" onclick=" calculatesub()" class="btn btn-success my-1"> <!--Margin in the y axis(both from top and bottom)-->
+                    -
+                  </button>
+                  <button type="submit" onclick=" calculatemulti()" class="btn btn-success my-1"> <!--Margin in the y axis(both from top and bottom)-->
+                    *
+                  </button>
+                  <button type="submit" onclick=" calculatediv()" class="btn btn-success my-1"> <!--Margin in the y axis(both from top and bottom)-->
+                    /
                   </button>
               </div>
               
               
               <label for="result" class="formLabel ">Result :</label>
               <input type="number" id="result" class="form-control" />
+              
             </div>
           </div>
         </div>
